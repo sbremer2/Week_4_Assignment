@@ -16,19 +16,19 @@ public class Week4Assignment
 		double width; 
 	
 		Scanner input = new Scanner(System.in);
-		System.out.print("Enter the length of the box: ");
+		System.out.print("\tEnter the length of the box: ");
 		length = input.nextDouble();
 		
-		System.out.print("Enter the height of the box: ");
+		System.out.print("\tEnter the height of the box: ");
 		height = input.nextDouble();
 
-		System.out.print("Enter the width of the box: ");
+		System.out.print("\tEnter the width of the box: ");
 		width = input.nextDouble();	
 		
 		double boxVolume = volumeDoubles(length, width, height);
 		double boxSA = surfaceAreaDoubles(length, width, height);
 		
-		System.out.printf("The Volume of your box is: %f\n", boxVolume);
+		System.out.printf("\nThe Volume of your box is: %f\n", boxVolume);
 		System.out.printf("The Surface Area of your box is: %f", boxSA);
 		
 		input.close();
